@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_bar_nav"
+    app:startDestination="@id/homepageFragment">
+
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.trendyoltasarimi.fragment.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.trendyoltasarimi.fragment.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.trendyoltasarimi.fragment.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/goFragment"
+        android:name="com.example.trendyoltasarimi.fragment.GoFragment"
+        android:label="fragment_go"
+        tools:layout="@layout/fragment_go" />
+    <fragment
+        android:id="@+id/homepageFragment"
+        android:name="com.example.trendyoltasarimi.fragment.HomepageFragment"
+        android:label="fragment_homepage"
+        tools:layout="@layout/fragment_homepage" />
+</navigation>

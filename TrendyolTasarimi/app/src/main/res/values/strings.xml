@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TrendyolTasarimi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="homepage">Anasayfa</string>
+    <string name="trendyol_go">Trendyol Go</string>
+    <string name="favorite">Favorilerim</string>
+    <string name="cart">Sepetim</string>
+    <string name="account">Hesabım</string>
+    <string name="search_hint">Marka, ürün veya kategori ara</string>
+    <string name="women">Kadın</string>
+    <string name="men">Erkek</string>
+    <string name="all_cats">Tüm kategoriler</string>
+    <string name="market">Hızlı Market</string>
+    <string name="food">Yemek</string>
+    <string name="secondhand">Dolap</string>
+    <string name="categories">Kategoriler</string>
+    <string name="items_for_you">Sana Özel Ürünler</string>
+    <string name="all_items">Tüm ürünler</string>
+</resources>
